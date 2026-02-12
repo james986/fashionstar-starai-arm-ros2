@@ -3,13 +3,13 @@
 <div align="center">
   <div style="display: flex; gap: 1rem; justify-content: center; align-items: center;" >
     <img
-      src="images\viola_and_violin.jpg"
+      src="../images/viola_and_violin.jpg"
       alt="SO-101 follower arm"
       title="SO-101 follower arm"
       style="width: 80%;"
     />
     <img
-      src="images\cello.jpg"
+      src="../images/cello.jpg"
       alt="SO-101 leader arm"
       title="SO-101 leader arm"
       style="width: 80%;"
@@ -61,8 +61,9 @@ colcon build
 echo "source ~/star-arm-moveit2/install/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
-
-https://github.com/user-attachments/assets/33fa3722-f0d4-4521-818d-a49d7f6b4909
+<video controls style="width:100%; max-width:900px;">
+  <source src="../images/stararm.mp4" type="video/mp4">
+</video>
 
 ## MoveIt2
 
